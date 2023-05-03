@@ -1,8 +1,5 @@
 def multiplicar_matrices(matriz1, matriz2):
-    """
-    Esta función recibe dos matrices como entrada y devuelve su multiplicación,
-    si es posible, o None en otro caso.
-    """
+  
     # Verificar si es posible la multiplicación de las matrices
     if len(matriz1[0]) != len(matriz2):
         return None

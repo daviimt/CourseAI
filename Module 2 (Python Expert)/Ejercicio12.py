@@ -1,8 +1,5 @@
 def multiplicacion_division(num1, num2):
-    """
-    Esta función recibe dos números como entrada y devuelve su multiplicación
-    y división (si es posible) como una tupla.
-    """
+  
     multiplicacion = num1 * num2
     division = None
     

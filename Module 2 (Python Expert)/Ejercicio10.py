@@ -1,8 +1,5 @@
 def sumar_matrices(matriz1, matriz2):
-    """
-    Esta función recibe dos matrices como entrada y devuelve su suma,
-    si es posible, o None en otro caso.
-    """
+  
     # Verificar si es posible la suma de las matrices
     if len(matriz1) != len(matriz2) or len(matriz1[0]) != len(matriz2[0]):
         return None

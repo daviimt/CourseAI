@@ -1,8 +1,5 @@
 def es_primo(numero):
-    """
-    Esta función recibe un número entero positivo como entrada y devuelve True si el número
-    es primo, y False en caso contrario.
-    """
+    
     # Los números menores o iguales a 1 no son primos
     if numero <= 1:
         return False

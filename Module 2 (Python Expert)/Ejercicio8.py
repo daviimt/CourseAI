@@ -1,7 +1,5 @@
 def calcular_media_y_varianza(a, b, c):
-    """
-    Esta función recibe tres valores como entrada y devuelve su media y varianza.
-    """
+   
     # Calcular la media
     media = (a + b + c) / 3
     
