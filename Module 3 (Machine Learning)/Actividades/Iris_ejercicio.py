@@ -21,7 +21,7 @@ C= len(np.unique(y))
 print('Número de clusters: ', C)
 plt.scatter(X[:, 0], X[:, 1],X[:, 2],
             color='blue', marker='+')
-
+print(X[:, 0])
 # División en train y test
 X_train, X_test, y_train, y_test = train_test_split(X, y,
                                                    test_size=0.25)
